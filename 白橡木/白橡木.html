@@ -46,7 +46,7 @@
         var hotspots = {};
         var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
         var clientWidth = documentElement.clientWidth;
-        if(isIOS) $('#parentId').width(clientWidth + 'px'); 
+        if(isIOS) $('#KeyShotVR').width(clientWidth + 'px'); 
         keyshotVR = new keyshotVR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots);
       }
 
